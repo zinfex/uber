@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header>
@@ -25,19 +26,34 @@
                   <li><a class="dropdown-item" href="#">O que oferecemos</a></li>
                   <li><a class="dropdown-item" href="#">Como a uber funciona</a></li>
                 </ul>
-              </div>
+            </div>
         </div>
         
         <div class="final">
-            <a href="#" class="idioma"><i class="fa-light fa-globe"></i> PT-BR</a>
+            
+            <div class="dropdown">
+                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; border-radius: 30px;">
+                    <i class="fa-solid fa-earth-americas" class="idioma"></i> PT-BR
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Português (Brasil)</a></li>
+                </ul>
+            </div>
+
             <a href="#" class="produtos">Produtos</a>
             <a href="#" class="login">Fazer login</a>
             <a href="#" class="cadastrese">Cadastre-se</a>
+            
+            <div id="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
         </div>
     </header>
 
     <div class="slideshow">
-        <img src="imgs/wall.jpg" a="">
+        <img src="imgs/wall.jpg">
 
         <div id="bloco">
 

@@ -57,6 +57,14 @@ header a.ajuda {
     right: 1px;
 }
 
+#menu {
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    display: none;
+}
+
 #bloco {
     background-color: white;
     position: absolute;

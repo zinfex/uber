@@ -1,0 +1,26 @@
+@media screen and (max-width: 1232px) {
+    #bloco {
+        width: 100%;
+        left: 0;
+    }
+} 
+
+@media screen and (max-width: 1004px) {
+    header {
+        padding-inline: 10px; 
+        gap: 0; 
+        justify-content: start;
+    }
+    header a.ajuda {margin-left: 0px;}
+    a.idioma {display: none;}
+    a.produtos {display: none;}
+
+}
+
+@media screen and (max-width: 587px) {
+    a.ajuda {display: none;}
+    a.seguranca {display: none;}
+    .btn {display: none;}
+    
+    #menu {display: block;}
+}
